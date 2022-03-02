@@ -36,6 +36,7 @@ h1 {
     color: #4F3674;
 }
 
+
 #image-gallery {
     margin-top: 10%;
     display: grid;
@@ -76,25 +77,48 @@ figcaption {
     font-weight: 400;
 }
 
+h2 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
 form {
     margin-bottom: 70px;
 }
 
+.form-group .btn {
+    width: 50%;
+    text-transform: uppercase;
+    margin-left: 25%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-width: 4px;
+    background-color: #a4e8e0;
+    
+}
 
+.form-group .btn:hover {
+    background: #fa5c58;
+}
 
 .form-control {
     padding: 17px 25px;
-    width: 50%;
+    width: 47%;
     font-size: 15px;
     height: auto;
-    border-radius: 0;
-    background: #f1f4f7;
+    border-radius: 2px;
+    background-color: #a4e8e0;
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: all 0.5;
     transition: all 0.5s;
     border: 1px solid #fff;
+    margin-left: 25%;
 }
 
 .form-control:focus {
@@ -103,26 +127,6 @@ form {
     box-shadow: none;
 }
 
-.btn {
-    padding: 15px 30px;
-    border-radius: 0;
-    -webkit-transition: border-color 0.4s, color 0.4s;
-    transition: border-color 0.4s, color 0.4s;
-    width: 50%;
-}
-
-.btn-primary {
-    background: #fa5c58;
-    border-width: 2px;
-    color: #fff;
-    border-color: #fa5c58;
-}
-
-.btn-primary, .btn-primary:focus {
-    background: #fff;
-    color: #fa5c58;
-    border-color: #fe4a46;
-}
 
 footer {
     background-color: #4cd7d0;
