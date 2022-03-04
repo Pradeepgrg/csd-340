@@ -3,12 +3,6 @@ body {
     font-family: 'Oswald', verdana, Arial, sans-serif;
 }
 
-header {
-    background-color: #4cd7d0;
-    color: black;
-    padding: 20px;
-    text-align: center;
-}
 
 h1 {
     font-weight: 400;
@@ -16,29 +10,29 @@ h1 {
 
 #navbar {
     overflow: hidden;
-    background-color: #a4e8e0;
-    border-bottom: 15px solid #f8ea8c;
+    background-color: #000f0e;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 30px;
+    width: 100%;
 }
 
 #navbar a {
    font-size: 20px;
     display: inline;
-    color: black;
+    color:white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 30px;
     text-decoration: none;
 }
 
 #navbar a:hover {
-    background-color: white;
+    background-color:#fa5c58;
     color: #4F3674;
 }
 
 
 #image-gallery {
-    margin-top: 10%;
+    margin-top: 4%;
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -49,8 +43,13 @@ h1 {
     font-weight: 400;
 }
 
+.photo {
+    margin-top: 50px;
+    text-align: center;
+}
+
 .gallery-item {
-    border: 1px solid rgba(185, 63, 8);
+    border: 1px solid rgb(179, 178, 180);
     border-radius: 15px;
     padding: 5px;
 }
@@ -70,11 +69,16 @@ h3 {
     font-weight: 400;
 }
 
+p {
+    text-align: center;
+    font-weight: 300;
+}
+
 figcaption {
     font-family: 'Oswald', verdana, Arial, sans-serif;
     font-style: italic;
     font-size: .75em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .column {
@@ -83,6 +87,7 @@ figcaption {
     padding: 0 25px;
     margin-left: 60px;
 }
+
 
 .row {
     margin: 0 -5px;
@@ -95,22 +100,25 @@ figcaption {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #d6d6d6;
 }
 
 h2 {
     text-align: center;
 }
 
-.container p {
-    text-align: center;
+.articlepage p {
+    text-align: justify;
+    width: 50%;
+    margin:auto;
+    font-weight: 200;
 }
 
-form {
-    margin-bottom: 70px;
+.container p {
+    text-align: center;
 }
 
 .form-group .btn {
@@ -118,11 +126,10 @@ form {
     text-transform: uppercase;
     margin-left: 25%;
     height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
     border-width: 2px;
-    background-color: #cfcece;
-    
+    background-color: #cfcece;  
 }
 
 .form-group .btn:hover {
@@ -153,26 +160,27 @@ form {
 
 
 footer {
-    background-color: #4cd7d0;
+    background-color:#000f0e;
     position: fixed;
     bottom: 0;
     width: 100%;
     left: 0;
+    height: 8%;
 
 }
 
 footer p {
-    color: black;
+    color:#fff;
     font-weight: 400;
     text-align: center;
     padding-right: 10px;
     font-style: italic;
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
+    color:#fff;
 }
 
 footer a:hover {
